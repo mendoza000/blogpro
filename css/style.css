@@ -1,2 +1,7 @@
 /*hay que meter en normalize*/
 /*hay que poner las variebles para los colores de la paleta*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--color-primary-xo)
+}
