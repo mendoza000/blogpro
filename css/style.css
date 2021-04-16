@@ -1,7 +1,22 @@
 /*hay que meter en normalize*/
 /*hay que poner las variebles para los colores de la paleta*/
-
-body{
-	font-family: 'Roboto', sans-serif;
-	background-color: var(--color-primary-xo)
+*{
+	margin: 0;
+}
+.nav-title{
+	display: flex-box;
+	left: 0;
+}
+.nav{
+	padding: 1em 0;
+	background: rgba(61,125,241,1);
+}
+.nav-navegador{
+	display: flex;
+}
+.nav-navegador li{
+	list-style: none;
+}
+.nav-navegador li a:hover{
+	background: rgba(114,158,241,0.7);
 }
